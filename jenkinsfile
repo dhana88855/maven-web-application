@@ -25,7 +25,6 @@ node{
  }
  
  /*
- 
  stage('uploadartifactintonexus'){
  sh "${mavenHome}/bin/mvn clean deploy"
  }
